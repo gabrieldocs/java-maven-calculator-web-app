@@ -18,3 +18,5 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: gabrieldocs/pitest-report-action@568e2f601e6568cd224fd9252da454505bea5b09
       uses: gabrieldocs/pitest-report-action@v1.0.1-alpha
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}        
