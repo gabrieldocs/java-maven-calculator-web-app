@@ -1,5 +1,6 @@
 name: Java CI with PITest
 
+# Testa o deploy no branch main
 on:
   push:
     branches: [main] # ajuste para a branch desejada
