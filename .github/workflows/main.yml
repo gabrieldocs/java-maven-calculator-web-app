@@ -1,0 +1,19 @@
+name: Java CI with PITest
+
+on:
+  push:
+    branches: [main] # ajuste para a branch desejada
+  pull_request:
+    branches: [main] # ajuste para a branch desejada
+
+# Lista de jobs da action
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Java CI with PITest
+      # You may pin to the exact commit or the version.
+      # uses: gabrieldocs/pitest-report-action@568e2f601e6568cd224fd9252da454505bea5b09
+      uses: gabrieldocs/pitest-report-action@v1.0.1-alpha
